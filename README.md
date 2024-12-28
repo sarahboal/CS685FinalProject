@@ -1,4 +1,20 @@
-Models for en-fr machine translation comparisons
+# Machine Translation Model Comparisons for English to French
+## Final Project Repository for CS 685 at Umass Amherst - Spring 2024
+
+
+This project explores fine-tuning large language models, such as Llama 2 and mT5, for English-to-French translation. Key insights include the necessity of fine-tuning mT5 due to its lack of supervised training, the challenges of fine-tuning large models with limited GPU memory, and the utility of techniques like QLoRA for optimizing memory usage. Our experiments demonstrated excellent results with fine-tuned Llama 2 achieving BLEU scores in the 50 range, while mT5 required more training data and compute resources for meaningful output. Future work includes scaling up training datasets, utilizing cloud-based multi-GPU setups, and experimenting with larger models like Llama 3.
+
+---
+|Repository Info| |
+|---|---|
+| Programming Languge | Python |
+| Data Source | Kaggle |
+| Main Task | NLP |
+| NLP Approach | Fine-tuning LLMs/QLora, Prompt Tuning |
+| LLM Models | Llama 2, mT5 |
+| Operating System | Google Colab |
+---
+### Repository Details:
 
 Link to dataset: https://www.kaggle.com/datasets/dhruvildave/en-fr-translation-dataset
 
